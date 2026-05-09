@@ -1,0 +1,7 @@
+(test
+ (name test_ocaml_josef)
+ (libraries core alcotest ocaml_josef)
+ (preprocess
+   (pps ppx_jane)
+  )
+ )

@@ -1,0 +1,7 @@
+(library
+ (name ocaml_josef)
+ (public_name ocaml_josef)
+ (libraries core ctypes ctypes.foreign)
+ (c_library_flags -lrdkafka)
+ (preprocess
+  (pps ppx_jane)))
